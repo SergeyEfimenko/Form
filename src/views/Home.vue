@@ -26,7 +26,24 @@
         <span class="helper-text" data-error="Autor is required"></span>
       </div>
 
-      <input type="text" ref="datepicker" />
+      <!-- <select class="browser-default">
+        <option value="" disabled selected>Choose your option</option>
+        <option value="1">Option 1</option>
+        <option value="2">Option 2</option>
+        <option value="3">Option 3</option>
+      </select> -->
+
+      <div class="input-field">
+        <select>
+          <option value="" disabled selected>Choose your option</option>
+          <option value="1">Option 1</option>
+          <option value="2">Option 2</option>
+          <option value="3">Option 3</option>
+        </select>
+      </div>
+      <div class="row">
+        <input type="text" ref="datepicker" />
+      </div>
     </form>
     <div>
       <h4>{{ formImage.imageTitle }}</h4>
@@ -115,3 +132,5 @@ export default {
   },
 };
 </script>
+
+
